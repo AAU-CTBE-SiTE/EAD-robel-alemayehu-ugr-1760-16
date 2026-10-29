@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78e06156-7c99-455b-814f-96eafc6b7715" name="Changes" comment="feat: initialize Spring Core IoC lab project&#10;- Create Maven-based Java project&#10;- Add Spring Context and Lombok dependencies&#10;- Create Student and App classes&#10;- Configure Spring beans using XML&#10;- Initialize ApplicationContext and retrieve Student bean&#10;- Run the application successfully">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/craft/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/craft/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beansConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beansConfig.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="3LMUVqDSmJQdZM36LG23XJYTMJC" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;/home/robel/Documents/EAD&quot;
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "Lab-3",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/robel/Documents/EAD"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.craft.App" />
@@ -25,5 +65,19 @@
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78e06156-7c99-455b-814f-96eafc6b7715" name="Changes" comment="" />
+      <created>1793263459087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793263459087</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: initialize Spring Core IoC lab project&#10;- Create Maven-based Java project&#10;- Add Spring Context and Lombok dependencies&#10;- Create Student and App classes&#10;- Configure Spring beans using XML&#10;- Initialize ApplicationContext and retrieve Student bean&#10;- Run the application successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: initialize Spring Core IoC lab project&#10;- Create Maven-based Java project&#10;- Add Spring Context and Lombok dependencies&#10;- Create Student and App classes&#10;- Configure Spring beans using XML&#10;- Initialize ApplicationContext and retrieve Student bean&#10;- Run the application successfully" />
   </component>
 </project>

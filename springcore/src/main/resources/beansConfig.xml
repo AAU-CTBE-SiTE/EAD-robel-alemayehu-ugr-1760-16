@@ -5,6 +5,11 @@
            http://www.springframework.org/schema/beans
            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="student" class="com.craft.Student"/>
+
+    <bean id="student" class="com.craft.Student">
+        <property name="id" value="101"/>
+        <property name="name" value="Robel"/>
+        <property name="age" value="22"/>
+    </bean>
 
 </beans>
