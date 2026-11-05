@@ -1,45 +1,43 @@
-
 package com.craft;
 
+import lombok.Data;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+
+@Data
+@Component
 public class Student {
-
-    public void getHello() {
-        System.out.println("Hello Springers");
-    }
-
 
     private int id;
     private String name;
     private int age;
+    private Address address;
+    private List<Subject> subjects;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
+    // Constructor injection: Spring supplies every parameter
+    @Autowired
+    public Student(@Value("101") int id,
+                   @Value("John Doe") String name,
+                   @Value("20") int age,
+                   Address address,
+                   List<Subject> subjects) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
         this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
         this.age = age;
+        this.address = address;
+        this.subjects = subjects;
+        System.out.println("Student Parameterized Constructor Called");
     }
 
-    public void displayStudent() {
-        System.out.println("Student ID: " + id);
+    public void getDetails() {
         System.out.println("Student Name: " + name);
-        System.out.println("Student Age: " + age);
+        int index = 1;
+        for (Subject subject : subjects) {
+            System.out.println("Subject " + index + ": " + subject.getSubjectName());
+            index++;
+        }
     }
-
 }
