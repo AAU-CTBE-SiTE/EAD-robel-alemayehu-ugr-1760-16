@@ -1,8 +1,0 @@
-et/edu/aau/customerservice/service/CustomerService.class
-et/edu/aau/customerservice/exceptions/CustomerNotFoundException.class
-et/edu/aau/customerservice/CustomerServiceApplication.class
-et/edu/aau/customerservice/exceptions/ErrorResponse.class
-et/edu/aau/customerservice/controller/CustomerController.class
-et/edu/aau/customerservice/repository/CustomerRepository.class
-et/edu/aau/customerservice/exceptions/GlobalExceptionHandler.class
-et/edu/aau/customerservice/model/Customer.class
